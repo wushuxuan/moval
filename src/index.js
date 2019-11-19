@@ -8,18 +8,15 @@ function JudgementType(item){
 var tools = {
 
   Simplify: function(array) {
-     const myArray = [1,2,3,4,4,null,null,0,5]
-    // const myArray = [[1,2],[2,3],[1,2]]
-    console.log(JudgementType(myArray))
-    let hash = [];
+    let hs = []; 
+    let jsonHs = [];
     array.forEach(element => {
-      if(hash.indexOf(element) < 0){
-        hash.push(element)
+      if(jsonHs.indexOf(JSON.stringify(element))<0){
+        hs.push(element);
+        jsonHs.push(JSON.stringify(element))
       }
-    });
-    console.log("hash2222:")
-    console.log(hash)
-    return hash;
+    });                       
+    return hs;
   },
 
   SimplifyByKey:function(array, key) {
@@ -28,7 +25,6 @@ var tools = {
     hash[curVal[key]] ? '' : hash[curVal[key]] = true && preVal.push(curVal); 
     return preVal 
     }, [])
-    console.log(array)
     return array;  
   }
 }
