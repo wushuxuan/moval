@@ -1,0 +1,35 @@
+{
+  "name": "moval",
+  "version": "0.0.1",
+  "description": "短小精悍的数组操作工具类",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "release": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wushuxuan/fast-array-utils.git"
+  },
+  "keywords": [
+    "array"
+  ],
+  "author": "https://github.com/wushuxuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wushuxuan/fast-array-utils/issues"
+  },
+  "homepage": "https://github.com/wushuxuan/fast-array-utils#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "mocha": "^6.2.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.6.0"
+  }
+}
