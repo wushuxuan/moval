@@ -1,7 +1,7 @@
 {
   "name": "moval",
   "version": "1.0.0",
-  "description": "快速去重",
+  "description": "不同类型的数组快速去重",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha",
