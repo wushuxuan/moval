@@ -1,6 +1,6 @@
 {
   "name": "moval",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "快速去重",
   "main": "src/index.js",
   "scripts": {
@@ -12,8 +12,7 @@
     "url": "git+https://github.com/wushuxuan/moval.git"
   },
   "keywords": [
-    "array",
-    "去重"
+    "array","去重","数组去重"
   ],
   "author": "https://github.com/wushuxuan",
   "license": "MIT",

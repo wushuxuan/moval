@@ -3,7 +3,7 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: __dirname,
-        filename: './release/array-utils.bundle.js'
+        filename: './release/moval.bundle.js'
     },
     module: {
         rules: [{
