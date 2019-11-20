@@ -1,7 +1,7 @@
 {
   "name": "moval",
   "version": "1.0.2",
-  "description": "不同类型的数组快速去重",
+  "description": "fast de duplication of different types of arrays",
   "main": "src/index.js",
   "scripts": {
     "test": "mocha",
@@ -12,7 +12,7 @@
     "url": "git+https://github.com/wushuxuan/moval.git"
   },
   "keywords": [
-    "array","去重","数组去重"
+    "array","duplication","去重","数组去重"
   ],
   "author": "https://github.com/wushuxuan",
   "license": "MIT",

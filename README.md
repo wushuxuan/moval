@@ -1,39 +1,39 @@
 # moval
 
-不同类型的数组快速去重
+fast de duplication of different types of arrays
 
 
-## 安装下载
+## Install
 
-npm安装 :
+Install with npm:
 
 ```
 $ npm install --save moval
 ```
 
-## 快速使用
+## Usage
 
-* 引入
+* require
 
 ```
 const tools = require('moval');
 ```
-* 数组快速去重
+* fast array de duplication
 
 ```
 tools.Simplify(array)
 ```
-* json数组以某个key值进行去重
+* with a key value
 
 ```
 tools.SimplifyByKey(array,'value')
 ```
 
 
-## 交流提问
+## Issues
 
-提问地址：https://github.com/wushuxuan/moval/issues
+address：https://github.com/wushuxuan/moval/issues
 
-## 关于作者
+## About
 
-如果你喜欢这个项目, 欢迎 Star!
+Please consider following this project's author, Wushuxuan, and consider starring the project to show your support.
